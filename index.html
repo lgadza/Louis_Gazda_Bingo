@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+    <style>
+      h1 {
+        display: flex;
+        justify-content: center;
+        color: coral;
+      }
+      input {
+        font-size: 1.2em;
+      }
+      #button {
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+      }
+      div {
+        margin-left: 20%;
+        margin-right: 30%;
+      }
+      li {
+        list-style-type: disc;
+        background-color: coral;
+        color: white;
+        font-size: 1.2em;
+        padding: 5px;
+      }
+      /* #whole {
+        margin: 0;
+        width: 100vw;
+        /* height: 50vh; 
+        /* display: flex; 
+        justify-content: space-around;
+        align-items: center;
+      } */
+      #bingo {
+        margin-top: 40px;
+        margin-left: 35%;
+        width: 500px;
+        display: flex;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .selectedNums {
+        margin-top: 40px;
+        margin-left: 35%;
+        width: 460px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .nums {
+        border: 1px solid;
+        padding: 5px;
+        width: 80px;
+        /* border-style: ; */
+        height: 80px;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-color: coral;
+        background-color: rgb(255, 255, 255);
+        /* color: white; */
+      }
+      .gameName {
+        border: 1px solid;
+        padding: 5px;
+        width: 80px;
+        /* border-style: ; */
+        height: 80px;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-color: coral;
+        background-color: rgb(255, 255, 255);
+        /* color: white; */
+      }
+      .nums:hover {
+        background-color: coral;
+        color: black;
+        cursor: pointer;
+      }
+      h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Louis</h1>
+    <div>
+      <label for="add-names">Add Frrinds Names:</label><br />
+      <input type="text" id="add-names" />
+      <button id="button">+</button>
+    </div>
+    <ul id="add"></ul>
+    <button id="myBtn">Random Cell</button>
+    <div id="whole">
+      <div id="bingo"></div>
+      <div class="selectedNums"></div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
